@@ -39,49 +39,9 @@ export default function Home() {
           </div>
 
           <div className="actions">
-            <a href="/" className="edit">
+            <Link to="/edit/123" className="edit">
               <img src={edit} alt="Edit" />
-            </a>
-            <button type="button">
-              <img src={trash} alt="trash" />
-            </button>
-          </div>
-        </Card>
-
-        <Card>
-          <div className="info">
-            <div className="contact-name">
-              <strong>Hilton Ribeiro</strong>
-              <small>instagram</small>
-            </div>
-            <span>josehilton02@gmail.com</span>
-            <span>(82) 99914-2756</span>
-          </div>
-
-          <div className="actions">
-            <a href="/" className="edit">
-              <img src={edit} alt="Edit" />
-            </a>
-            <button type="button">
-              <img src={trash} alt="trash" />
-            </button>
-          </div>
-        </Card>
-
-        <Card>
-          <div className="info">
-            <div className="contact-name">
-              <strong>Hilton Ribeiro</strong>
-              <small>instagram</small>
-            </div>
-            <span>josehilton02@gmail.com</span>
-            <span>(82) 99914-2756</span>
-          </div>
-
-          <div className="actions">
-            <a href="/" className="edit">
-              <img src={edit} alt="Edit" />
-            </a>
+            </Link>
             <button type="button">
               <img src={trash} alt="trash" />
             </button>
