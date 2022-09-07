@@ -42,9 +42,9 @@ export default function ContactForm({ buttonLabel }) {
   function handleSubmit(event) {
     event.preventDefault();
 
-    console.debug({
-      name, email, phone, category,
-    });
+    // console.debug({
+    //   name, email, phone, category,
+    // });
   }
 
   return (
