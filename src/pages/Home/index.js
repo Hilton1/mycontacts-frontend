@@ -38,8 +38,6 @@ export default function Home() {
     }
 
     loadContacts();
-
-    return () => console.log('cleanup');
   }, [orderBy]);
 
   function handleToggleOrderBy() {
